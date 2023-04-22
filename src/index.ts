@@ -58,7 +58,7 @@ if (options.register) {
 	puppet.readConfig(false);
 	try {
 		puppet.generateRegistration({
-			prefix: "_steampuppet_",
+			prefix: "bot_steam",
 			id: "steam-puppet",
 			url: `http://${puppet.Config.bridge.bindAddress}:${puppet.Config.bridge.port}`,
 		} as IPuppetBridgeRegOpts);
